@@ -28,11 +28,9 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
-# -- Options for HTML output -------------------------------------------------
-
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
+
 html_theme = 'pytorch_sphinx_theme'
 html_theme_path = [pytorch_sphinx_theme.get_html_theme_path()]
 
@@ -52,11 +50,12 @@ html_theme_options = {
     # Disable the default edit on GitHub
     'default_edit_on_github': False,
 }
-# yapf: enable
 
+# yapf: enable
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
+
 html_static_path = ['_static']
 html_css_files = [
     'https://cdn.datatables.net/v/bs4/dt-1.12.1/datatables.min.css',
